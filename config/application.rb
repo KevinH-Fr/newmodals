@@ -35,3 +35,5 @@ module Newpro
     config.generators.system_tests = nil
   end
 end
+
+
