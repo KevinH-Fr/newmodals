@@ -1,0 +1,10 @@
+{
+  "name": "newpro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "KevinGolfimmo <71709920+KevinGolfimmo@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hotwired/turbo-rails": "^7.1.3"
+  }
+}
