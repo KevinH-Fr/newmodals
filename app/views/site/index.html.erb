@@ -2,4 +2,15 @@
     hello world !
 </h1>
 
-<%= turbo_frame_tag "counter", type:"module", src: increment_path %>
+<%#= turbo_frame_tag "counter", type:"module", src: increment_path %>
+
+<%= turbo_frame_tag "something" do %>
+    this is the initial text.
+    <div class="mt-4">
+        <%= link_to "Click Me", "/turbo-frame-test", class: "button" %>
+    </div>
+<% end %>
+
+<div class="mt-8">
+    and this is some text around that the frame will not be updated by the response.
+</div>
