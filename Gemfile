@@ -74,6 +74,6 @@ group :development do
 end
 
 
-gem "tailwindcss-rails", "~> 0.5.1"
+gem "tailwindcss-rails"
 
 
